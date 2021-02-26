@@ -1,0 +1,16 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "go",
+    "password": "123456",
+    "database": "api-node-nlw",
+    "schema": "api-email",
+    "migrations":["./src/database/migrations/**.ts"],
+    "entities": ["./src/models/**.ts"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    },
+    "synchronize": false,
+    "logging": false
+}
