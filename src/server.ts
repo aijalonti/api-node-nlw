@@ -1,13 +1,3 @@
-import express, { request } from "express";
+import { app } from "./app";
 
-const app = express();
-
-app.get("/", (req, res) => {
-  return res.json({ message: "Hello Word - NLW#04" });
-});
-
-app.post("/", (req, res) => {
-  return res.json({ message: "Alterado !" });
-});
-
-app.listen(3333, () => console.log("Server is running!"));
+app.listen(3535, () => console.log("Server is running!"));
