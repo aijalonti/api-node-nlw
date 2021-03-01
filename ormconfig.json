@@ -1,6 +1,6 @@
 {
     "type": "sqlite",
-    "database": "./src/database/database_send_email.sqlite",
+    "database": "./src/database/api_send_email.sqlite",
     "migrations":["./src/database/migrations/**.ts"],
     "entities": ["./src/models/**.ts"],
     "cli": {

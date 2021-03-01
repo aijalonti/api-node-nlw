@@ -7,7 +7,7 @@ export default async (): Promise<Connection> => {
     Object.assign(defaultOptions, {
       database:
         process.env.NODE_ENV === "test"
-          ? "./src/database/database_send_email.test.sqlite"
+          ? "./src/database/api_send_email.test.sqlite"
           : defaultOptions.database,
     })
   );
