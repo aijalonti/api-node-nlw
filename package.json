@@ -11,8 +11,8 @@
     "test": "NODE_ENV=test jest"
   },
   "dependencies": {
+    "@types/pg": "^7.14.10",
     "express": "^4.17.1",
-    "pg": "^8.5.1",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.2",
     "typeorm": "^0.2.31",
