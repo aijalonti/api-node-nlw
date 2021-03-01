@@ -11,8 +11,11 @@
     "test": "NODE_ENV=test jest"
   },
   "dependencies": {
+    "@types/nodemailer": "^6.4.0",
+    "@types/pg": "^7.14.10",
     "express": "^4.17.1",
-    "pg": "^8.5.1",
+    "handlebars": "^4.7.7",
+    "nodemailer": "^6.5.0",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.2",
     "typeorm": "^0.2.31",
