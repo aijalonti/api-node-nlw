@@ -5,9 +5,9 @@ export default async (): Promise<Connection> => {
 
   return createConnection(
     Object.assign(defaultOptions, {
-      schema:
+      database:
         process.env.NODE_ENV === "test"
-          ? "test-api-email"
+          ? "./src/database/api_send_email.test.sqlite"
           : defaultOptions.database,
     })
   );
